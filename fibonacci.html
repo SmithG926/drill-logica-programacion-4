@@ -5,14 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de Fibonacci</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <h1>Calculadora de Fibonacci</h1>
-  <p>Aquí puedes calcular números factoriales.</p>
-
-  <!-- Puedes agregar más secciones o scripts aquí -->
+  <p>Aquí puedes saber los números fibonacci.</p>
+  <label for="fibonacci">Ingresa cuántos fibonacci quieres saber: </label>
+  <input type="text" id="fibonacci">
+  <button onclick = "resultadoFibonacci()">Fibonacci</button>
+ 
+  <h2 id=R>Resultado</h2>
+  <p id="resultado" style = "color: green;"></p>
+  <p id="mensajeError" style="color:red;"></p>
 
   <script src="main.js"></script>
 </body>
