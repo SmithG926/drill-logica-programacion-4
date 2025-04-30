@@ -25,5 +25,5 @@ function resultadoFibonacci(){
 }
 
 function cambiarColor () {
-    document.getElementById("R").style.color="blue";
+    document.getElementById("R").style.color="white";
 }
