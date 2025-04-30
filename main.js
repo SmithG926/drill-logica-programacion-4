@@ -23,3 +23,7 @@ function resultadoFibonacci(){
     }
     resultado.textContent = `Los primeros ${num} números de Fibonacci son: ${fibonacci3}`
 }
+
+function cambiarColor () {
+    document.getElementById("R").style.color="blue";
+}

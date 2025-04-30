@@ -9,15 +9,20 @@
 </head>
 
 <body>
+  <video autoplay muted loop id="videoFondo"><source src="espacio.mp4" type="video/mp4"></video>
+  <div class="contenido">
+
   <h1>Calculadora de Fibonacci</h1>
   <p>Aquí puedes saber los números fibonacci.</p>
   <label for="fibonacci">Ingresa cuántos fibonacci quieres saber: </label>
   <input type="text" id="fibonacci">
-  <button onclick = "resultadoFibonacci()">Fibonacci</button>
+  <button onclick = "resultadoFibonacci(); cambiarColor()">Fibonacci</button>
  
   <h2 id=R>Resultado</h2>
   <p id="resultado" style = "color: green;"></p>
   <p id="mensajeError" style="color:red;"></p>
+
+</div>
 
   <script src="main.js"></script>
 </body>
